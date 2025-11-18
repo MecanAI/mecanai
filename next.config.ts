@@ -225,3 +225,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+ npm run dev
