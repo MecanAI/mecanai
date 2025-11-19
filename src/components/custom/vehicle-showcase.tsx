@@ -48,10 +48,10 @@ export function VehicleShowcase() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 dark:text-white mb-6">
-            Do Patinete à
+            Da cidade ao campo:
             <br />
             <span className="bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
-              Máquina Agrícola
+              soluções para toda jornada.
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">

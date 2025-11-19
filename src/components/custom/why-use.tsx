@@ -121,9 +121,9 @@ export function WhyUse() {
         {/* Stats */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Users, value: '50.000+', label: 'Usuários Ativos' },
+            { icon: Users, value: '+15 mil', label: 'Usuários Ativos' },
             { icon: Award, value: '95%', label: 'Taxa de Precisão' },
-            { icon: Zap, value: '200.000+', label: 'Diagnósticos Realizados' },
+            { icon: Zap, value: '+80 mil', label: 'Diagnósticos Realizados' },
             { icon: TrendingDown, value: '60%', label: 'Economia Média' },
           ].map((stat, index) => (
             <div

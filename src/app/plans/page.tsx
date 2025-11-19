@@ -49,6 +49,7 @@ export default function PlansPage() {
       cta: t('plans.free.cta'),
       icon: Sparkles,
       color: 'from-gray-400 to-gray-600',
+      buttonColor: 'from-gray-600 to-gray-800',
       popular: false,
     },
     {
@@ -61,6 +62,7 @@ export default function PlansPage() {
       cta: t('plans.pro.cta'),
       icon: Zap,
       color: 'from-blue-600 to-purple-600',
+      buttonColor: 'from-blue-600 to-purple-600',
       popular: true,
     },
     {
@@ -73,6 +75,7 @@ export default function PlansPage() {
       cta: t('plans.oficina.cta'),
       icon: Crown,
       color: 'from-orange-500 to-red-600',
+      buttonColor: 'from-green-600 to-emerald-600',
       popular: false,
     },
   ];
@@ -161,11 +164,7 @@ export default function PlansPage() {
                 {/* CTA Button */}
                 <button
                   onClick={() => handleSelectPlan(plan.id)}
-                  className={`w-full py-4 rounded-xl font-bold text-white transition-all hover:shadow-lg hover:scale-105 ${
-                    plan.popular
-                      ? 'bg-gradient-to-r from-blue-600 to-purple-600'
-                      : 'bg-gradient-to-r from-gray-600 to-gray-800'
-                  }`}
+                  className={`w-full py-4 rounded-xl font-bold text-white transition-all hover:shadow-lg hover:scale-105 bg-gradient-to-r ${plan.buttonColor}`}
                 >
                   {plan.cta}
                 </button>
