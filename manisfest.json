@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Mecan AI",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Mecan AI",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "productivity",
+    "utilities"
+  ]
+}
